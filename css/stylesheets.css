@@ -115,3 +115,60 @@ span i{
   font-size: 40px;
   font-weight: 100;
 }
+
+/*footer*/
+footer{
+  align-content: center;
+}
+
+.bottom{
+  font-size: 20px;
+}
+
+/*Contact Form*/
+.contact h1{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.contact p{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.form{
+  width:80%;
+  align-content: center;
+}
+
+.form label{
+  font-size: 20px;
+  font-weight: 100;
+}
+input{
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn{
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  background: #FFC104;
+  padding: 11px 30px;
+  font-size: 10px;
+  font-weight: 100;
+  margin-top: 50px;
+}
+
+.btn-default:hover {
+  background: blue;
+}
