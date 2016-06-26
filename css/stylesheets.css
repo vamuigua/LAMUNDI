@@ -50,6 +50,7 @@ table {
 /*Body*/
 body{
   background-color: #F1706D;
+  width: 100%;
 }
 
 
@@ -57,13 +58,12 @@ body{
 /*NAVIGATION BUTTONS*/
 .btn {
   border-color: #E8B713;
-  border-radius: 3px;
+  border-radius: 5px;
   display:inline-block;
   margin-left: -20px;
 }
 
 .btn-alt {
-  border-color:#E8B713;
   border: 2px solid #E8B713;
   padding: 8px 20px;
   margin-bottom: 20px;
@@ -75,14 +75,22 @@ body{
 .navigation{
   width:100%;
   padding-top:30px;
+  background-color: black;
+  height: 77px;
 }
 
 .navigation a{
-  color:red;
+  color:#F0ECD8;
   font-size: 25px;
   text-align: center;
   margin-left: 100px;
   padding-top: 10px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:rgb(200, 101, 163);
+  background-color: rgba(252, 255, 245, 0.25);
 }
 
 /*LOGO*/
