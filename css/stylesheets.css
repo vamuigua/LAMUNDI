@@ -99,21 +99,61 @@ aside img{
   float:left;
 }
 
-/*Slide PIctures*/
-span i{
-  text-align: center;
+/*Head Page*/
+.wrapper{
+  width:100%;
+  margin-top: 20px;
 }
 
-.cd-intro img{
-  width: 600px;
-  height: 400px;
+.intro{
+  font-size: 30px;
+  color: rgb(20, 50, 112);
+  text-align: center;
+  text-decoration: none;
+  font-weight: 300;
+  font-family: 'Lora', serif
+}
+
+.houses img{
+  width: 500px;
+  height: 300px;
   vertical-align:top;
-  padding-left: 25px;
+  padding-left: 15px;
 }
 
-.cd-intro b{
+/*Social Icons*/
+#icons{
+
+}
+
+.ig{
+  float: right;
+  margin-right: 80px;
+  margin-top: -570px;
   text-align: center;
 }
+
+.fb{
+  float: right;
+  margin-right: 100px;
+  margin-top: -430px;
+  text-align: center;
+}
+
+.twitter{
+  float: right;
+  margin-right: 80px;
+  margin-top: -290px;
+  text-align: center;
+}
+
+.pinterest{
+  float: right;
+  margin-right: 100px;
+  margin-top: -140px;
+  text-align: center;
+}
+
 
 /*ABOUT*/
 .about h1{
