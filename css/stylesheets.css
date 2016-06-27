@@ -163,6 +163,10 @@ aside img{
 
 
 /*ABOUT*/
+.about{
+  margin-bottom: 30px;
+}
+
 .about h1{
   text-align: center;
   font-size: 50px;
@@ -186,12 +190,55 @@ footer{
   font-size: 20px;
 }
 
-/*Contact Form*/
-.contact h1{
+/*LOCATION*/
+.full h1{
+  text-align: center;
+  color:rgb(20, 50, 112);
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Lora', serif
+}
+
+.full p{
+  text-align: center;
+  color:#000103;
+  font-size: 20px;
+}
+
+
+.location{
+  float: left;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.location h3{
+  text-align: center;
+  color: #000103;
+  font-size: 23px;
+
+}
+
+.contact{
+  float: left;
+  margin-top: 200px;
+  margin-left: -300px;
+}
+
+.map{
+  float: right;
+  margin-right: 50px;
+}
+
+
+/*Form*/
+/*.contact h1{
   font-size: 50px;
   text-align: center;
   font-weight: bold;
   margin-top: 60px;
+  color:rgb(20, 50, 112);
+  font-family: 'Lora', serif
 }
 
 .contact p{
@@ -199,7 +246,7 @@ footer{
   font-size: 40px;
   font-weight: 100;
 }
-
+*/
 .form{
   width:80%;
   align-content: center;
