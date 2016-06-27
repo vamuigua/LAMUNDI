@@ -240,7 +240,43 @@ footer{
   margin-right: 40px;
 }
 
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
 .form{
   float: left;
-  width:
+  border: 3px solid rgb(20, 50, 112);
+  border-radius: 5px;
+  width: 400px;
+  overflow: hidden;
+  height: 650px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.client-info legend{
+  padding-bottom: 30px;
+  color: rgb(20, 50, 112);
+  font-size: 50px;
+  font-weight: 100;
+  font-family: 'Lora', serif
+}
+
+.client-info label{
+  color:#000000;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.client-info input{
+  background: #fff;
+  border: 2px solid #c6c7cc;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 2px rgba(241, 0, 0, 0.5);
+  color: #636466;
+  width: 70%;
 }
