@@ -76,7 +76,7 @@ body{
   width:100%;
   padding-top:30px;
   background-color: rgba(15, 14, 25, 0.3);
-  height: 77px;
+  height: 108px;
 }
 
 .navigation a{
@@ -309,4 +309,30 @@ footer{
 
 .client-action{
   padding-left: 20px;
+}
+
+/*FOOTER*/
+.footer{
+  margin-top: 1250px;
+  background-color: rgba(15, 14, 25, 0.3);
+  color: rgb(20, 50, 112);
+  font-size: 30px;
+  font-family: 'Lora', serif
+
+}
+
+.footer a{
+  text-align: center;
+  padding-left: 500px;
+  text-decoration: none;
+  color: rgb(20, 50, 112);
+  font: 20px;
+}
+
+.footer a:hover{
+  background-color: rgba(15, 14, 25, 0.3);
+}
+
+.footer small{
+  padding-left: 120px;
 }
