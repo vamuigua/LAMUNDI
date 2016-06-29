@@ -72,7 +72,14 @@ body{
 }
 
 /*LINKS*/
+.navigation:before,
+.navigation:after{
+  content: none;
+  clear: both;
+}
+
 .navigation{
+  *zoom: 1;
   width:100%;
   padding-top:30px;
   background-color: rgba(15, 14, 25, 0.3);
