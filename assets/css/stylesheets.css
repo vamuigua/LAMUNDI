@@ -1,0 +1,345 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+//MAIN CSS
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*Body*/
+body{
+  background-color: #F1706D;
+  width: 100%;
+}
+
+
+
+/*NAVIGATION BUTTONS*/
+.btn {
+  border-color: #E8B713;
+  border-radius: 50%;
+  display:inline-block;
+  margin-left: -20px;
+}
+
+.btn-alt {
+  border: 4.5px solid #E8B713;
+  padding: 8px 20px;
+  margin-bottom: 20px;
+  padding-left: -50px;
+  border-color: #7980CC;
+}
+
+/*LINKS*/
+.navigation:before,
+.navigation:after{
+  content: none;
+  clear: both;
+}
+
+.navigation{
+  *zoom: 1;
+  width:100%;
+  padding-top:30px;
+  background-color: rgba(15, 14, 25, 0.3);
+  height: 108px;
+}
+
+.navigation a{
+  font-family: 'Indie Flower', cursive;
+  color:#F0ECD8;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 100px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:rgb(255, 138, 24);
+  background-color: rgba(252, 255, 245, 0.25);
+}
+
+/*LOGO*/
+aside img{
+  float:left;
+}
+
+/*Head Page*/
+.wrapper{
+  width:100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.intro{
+  font-size: 30px;
+  color: rgb(20, 50, 112);
+  text-align: center;
+  text-decoration: none;
+  font-weight: 300;
+  font-family: 'Lora', serif
+}
+
+.houses img{
+  width: 500px;
+  height: 300px;
+  vertical-align:top;
+  padding-left: 15px;
+}
+
+/*Social Icons*/
+#icons a{
+  text-decoration: none;
+  background-color: #F1706D;
+}
+
+#icons a:hover{
+  color: rgba(46, 114, 255,0.5);
+  background-color:#F1706D;
+}
+
+.ig{
+  float: right;
+  margin-right: 80px;
+  margin-top: -570px;
+  text-align: center;
+}
+
+.fb{
+  float: right;
+  margin-right: 100px;
+  margin-top: -430px;
+  text-align: center;
+}
+
+.twitter{
+  float: right;
+  margin-right: 80px;
+  margin-top: -290px;
+  text-align: center;
+}
+
+.pinterest{
+  float: right;
+  margin-right: 100px;
+  margin-top: -140px;
+  text-align: center;
+}
+
+
+/*ABOUT*/
+.about{
+  margin-bottom: 30px;
+}
+
+.about h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color:rgb(20, 50, 112);
+  font-family: 'Lora', serif
+}
+
+.about p{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+/*footer*/
+footer{
+  align-content: center;
+}
+
+.bottom{
+  font-size: 20px;
+}
+
+/*LOCATION*/
+.full h1{
+  text-align: center;
+  color:rgb(20, 50, 112);
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Lora', serif
+}
+
+.full p{
+  text-align: center;
+  color:#000103;
+  font-size: 20px;
+}
+
+
+.location{
+  float: left;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.location h3{
+  text-align: center;
+  color: #000103;
+  font-size: 23px;
+
+}
+
+.contact{
+  float: left;
+  margin-top: 200px;
+  margin-left: -300px;
+}
+
+.map{
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+
+/*Form*/
+.close p{
+  float: right;
+  text-align:right;
+  vertical-align:center
+  margin-right:50px;
+  font-size: 25px;
+  font-weight:;
+
+}
+
+.close img{
+  height:650px;
+  width: 750px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
+.form{
+  float: left;
+  border: 3px solid rgb(20, 50, 112);
+  border-radius: 5px;
+  width: 400px;
+  overflow: hidden;
+  height: 670px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.client-info legend{
+  padding-bottom: 30px;
+  color: rgb(20, 50, 112);
+  font-size: 50px;
+  font-weight: 100;
+  font-family: 'Lora', serif
+}
+
+.client-info label{
+  color:#000000;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.client-info input{
+  background: #fff;
+  border: 2px solid #c6c7cc;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 2px rgba(241, 0, 0, 0.5);
+  color: #636466;
+  width: 70%;
+}
+
+.client-action .btn{
+  cursor: pointer;
+  font-size: 20px;
+  font-weight:bold;
+  border: 2px solid rgb(220, 0, 0);
+  border-radius: 5px;
+  color: rgb(20, 50, 112);
+  background-color: #DCD5DB;
+}
+
+.client-action .btn:hover{
+  background-color: #1ADC3C;
+}
+
+.client-action{
+  padding-left: 20px;
+}
+
+/*FOOTER*/
+.footer{
+  margin-top: 1250px;
+  background-color: rgba(15, 14, 25, 0.3);
+  color: rgb(20, 50, 112);
+  font-size: 30px;
+  font-family: 'Lora', serif
+
+}
+
+.footer a{
+  text-align: center;
+  padding-left: 500px;
+  text-decoration: none;
+  color: rgb(20, 50, 112);
+  font: 20px;
+}
+
+.footer a:hover{
+  background-color: rgba(15, 14, 25, 0.3);
+}
+
+.footer small{
+  padding-left: 120px;
+}
